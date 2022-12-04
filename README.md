@@ -43,7 +43,7 @@ Importante tener corriendo las versiones de ghost que se quieren probar.
 1. Cada archivo de pruebas se ejecutará y los resultados se almacenarán en la carpeta reports. Los screenshots se almacenarán en la carpeta screenshots.
 
 
-Versión de Ghost: 3.41.1
+Versión de Ghost: 3.41.1 y 4.44.0 (para generar los insumos de las Pruebas VRT)
 
 ### Evidencias
 
@@ -58,33 +58,16 @@ Se proporcionan videos que evidencian la ejecución de las pruebas:
 * [Staff](https://www.youtube.com/watch?v=yz1a2R7rlRA&t=373s)
 * [Tags](https://www.youtube.com/watch?v=yz1a2R7rlRA&t=535s)
 
-## Funcionalidades bajo pruebas Versión Ghost 4.44.0
+## Pruebas VRT
 
-* Crear Página: Como usuario administrador hago login en la aplicación, me dirijo a la pestaña de Páginas, elijo la opción Crear Página, ingreso la información y elijo la opción Publicar. La página queda añadida a la lista de páginas publicadas.
-* Crear Post: Como usuario administrador hago login en la aplicación, me dirijo a la pestaña de Posts, elijo la opción Crear Post, ingreso la información y elijo la opción Publicar. El post queda añadida a la lista de posts publicados.
-* Crear Tag sin Descripción: Como usuario administrador hago login en la aplicación, me dirijo a la pestaña de Tags, elijo la opción Crear Tag, ingreso el nombre y elijo la opción Guardar. El tag queda añadido a la lista de tags.
-* Enviar invitación a Staff: Como usuario administrador hago login en la aplicación, me dirijo a la pestaña de Staff, elijo la opción Invitar, ingreso el email y elijo la opción Enviar Invitación. La invitación se envía y queda añadida a la lista de invitaciones.
-* Observar información de perfil: Como usuario administrador hago login en la aplicación, elijo la opción de desplegar menu de usuario y elijo la opción de ver perfil. En la pantalla se puede observar la información de perfil de usuario.
-*  Navegar a Acerca De: Como usuario administrador hago login en la aplicación, elijo la opción de desplegar menu de usuario y elijo la opción de Acerca De. En la pantalla se puede observar información acerca de la aplicación Ghost.
-
-### Pasos para ejecutar las pruebas
-
-Antes de ejecutar las pruebas, cree un usuario con los siguientes datos:
-
-* Email: b.munar@uniandes.edu.co
-* Password: uniandes2022
-* Nombre de usuario: brahian
-
-Importante tener corriendo las versiones de ghost que se quieren probar.
+### PASOS PARA EJECUTAR EL REPORTE
 
 1. Clone el repositorio de la entrega.
-1. Abra una terminal.
-1. Usando el comando cd ubíquese en su terminal en la raíz del repositorio de Kraken (carpeta Kraken).
-1. Ejecute el comando npm install
-1. Ejecute el comando npm run kraken-node-run
-1. Cada archivo de pruebas se ejecutará y los resultados se almacenarán en la carpeta reports. Los screenshots se almacenarán en la carpeta screenshots.
-
-
-Versión de Ghost: 3.41.1 y 4.44.0
+2. Ejecute los escenarios de prueba que entrarán al reporte (puede ejecutar todos los escenarios de la carpeta Pruebas_E2E_Kraken).
+3. Abra una terminal.
+4. Usando el comando cd ubíquese en su terminal en la raíz del repositorio de VRT (carpeta Pruebas_VRT_Resemble).
+5. Ejecute el comando npm install
+6. Ejecute el comando node index.js
+7. Se ejecutará el script comparando las capturas de pantalla de cada escenario ejecutado y se comparará con las de la nueva versión (4.44.0). En la carpeta reports se encuentra el archivo reporte.html, el cual contiene el reporte de comparación visual.
 
 
