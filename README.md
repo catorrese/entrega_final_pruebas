@@ -97,4 +97,10 @@ Versión de Node: 14.20.1
 
 ## Pruebas Exploratorias
 
-En el archivo adjunto [Inventario de pruebas exploratorias](https://github.com/catorrese/entrega_final_pruebas/blob/main/Inventario%20Pruebas%20exploratorias.xlsx) se encuentra el inventerio de pruebas exploratorias manuales de la aplicación bajo pruebas. Allí se reportan las funcionalidades probadas y los escenarios ejecutados, junto con un enlace a los videos de evidencia y las incidencias reportadas.
+En el archivo adjunto [Inventario de pruebas exploratorias](https://github.com/catorrese/entrega_final_pruebas/blob/main/Inventario%20Pruebas%20exploratorias.xlsx) se encuentra el inventario de pruebas exploratorias manuales de la aplicación bajo pruebas. Allí se reportan las funcionalidades probadas y los escenarios ejecutados, junto con un enlace a los videos de evidencia y las incidencias reportadas.
+
+## Registro de Incidencias
+
+Las incidencias encontradas en la ejecución de la estrategia de pruebas se encuentran en el siguiente enlace: [Registro de incidencias](https://github.com/catorrese/entrega_final_pruebas/issues)
+
+Cada incidencia se encuentra etiquetada con el método por el cual se descubrió, es decir, con que tipo de pruebas (exploratorias, E2E, etc.) se encontró el error o bug que describe.
