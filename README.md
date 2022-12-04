@@ -70,4 +70,27 @@ Se proporcionan videos que evidencian la ejecución de las pruebas:
 6. Ejecute el comando node index.js
 7. Se ejecutará el script comparando las capturas de pantalla de cada escenario ejecutado y se comparará con las de la nueva versión (4.44.0). En la carpeta reports se encuentra el archivo reporte.html, el cual contiene el reporte de comparación visual.
 
+## Pruebas E2E Validacion de Datos
 
+### Pasos para ejecutar las pruebas
+
+Antes de ejecutar las pruebas, cree un usuario con los siguientes datos:
+
+* Email: b.munar@uniandes.edu.co
+* Password: uniandes2022
+* Nombre de usuario: brahian
+
+Importante tener corriendo las versiones de ghost que se quieren probar.
+
+1. Clone el repositorio de la entrega.
+1. Abra una terminal.
+1. Usando el comando cd ubíquese en su terminal en la raíz del repositorio (Pruebas_E2E_Validacion_Datos).
+1. Ejecute el comando npm install
+1. Ejecute el comando npm run kraken-node-run
+1. Cada archivo de pruebas se ejecutará y los resultados se almacenarán en la carpeta reports. Los screenshots se almacenarán en la carpeta screenshots.
+
+Herramienta de pruebas: Kraken
+
+Versión de Ghost: 3.41.1
+
+Versión de Node: 14.20.1
