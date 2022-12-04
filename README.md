@@ -70,4 +70,37 @@ Se proporcionan videos que evidencian la ejecución de las pruebas:
 6. Ejecute el comando node index.js
 7. Se ejecutará el script comparando las capturas de pantalla de cada escenario ejecutado y se comparará con las de la nueva versión (4.44.0). En la carpeta reports se encuentra el archivo reporte.html, el cual contiene el reporte de comparación visual.
 
+## Pruebas E2E Validacion de Datos
 
+### Pasos para ejecutar las pruebas
+
+Antes de ejecutar las pruebas, cree un usuario con los siguientes datos:
+
+* Email: b.munar@uniandes.edu.co
+* Password: uniandes2022
+* Nombre de usuario: brahian
+
+Importante tener corriendo las versiones de ghost que se quieren probar.
+
+1. Clone el repositorio de la entrega.
+1. Abra una terminal.
+1. Usando el comando cd ubíquese en su terminal en la raíz del repositorio (Pruebas_E2E_Validacion_Datos).
+1. Ejecute el comando npm install
+1. Ejecute el comando npm run kraken-node-run
+1. Cada archivo de pruebas se ejecutará y los resultados se almacenarán en la carpeta reports. Los screenshots se almacenarán en la carpeta screenshots.
+
+Herramienta de pruebas: Kraken
+
+Versión de Ghost: 3.41.1
+
+Versión de Node: 14.20.1
+
+## Pruebas Exploratorias
+
+En el archivo adjunto [Inventario de pruebas exploratorias](https://github.com/catorrese/entrega_final_pruebas/blob/main/Inventario%20Pruebas%20exploratorias.xlsx) se encuentra el inventario de pruebas exploratorias manuales de la aplicación bajo pruebas. Allí se reportan las funcionalidades probadas y los escenarios ejecutados, junto con un enlace a los videos de evidencia y las incidencias reportadas.
+
+## Registro de Incidencias
+
+Las incidencias encontradas en la ejecución de la estrategia de pruebas se encuentran en el siguiente enlace: [Registro de incidencias](https://github.com/catorrese/entrega_final_pruebas/issues)
+
+Cada incidencia se encuentra etiquetada con el método por el cual se descubrió, es decir, con que tipo de pruebas (exploratorias, E2E, etc.) se encontró el error o bug que describe.
