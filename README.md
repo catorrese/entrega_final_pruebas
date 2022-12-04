@@ -94,3 +94,7 @@ Herramienta de pruebas: Kraken
 Versión de Ghost: 3.41.1
 
 Versión de Node: 14.20.1
+
+## Pruebas Exploratorias
+
+En el archivo adjunto [Inventario de pruebas exploratorias](https://github.com/catorrese/entrega_final_pruebas/blob/main/Inventario%20Pruebas%20exploratorias.xlsx) se encuentra el inventerio de pruebas exploratorias manuales de la aplicación bajo pruebas. Allí se reportan las funcionalidades probadas y los escenarios ejecutados, junto con un enlace a los videos de evidencia y las incidencias reportadas.
