@@ -95,6 +95,29 @@ Versión de Ghost: 3.41.1
 
 Versión de Node: 14.20.1
 
+## Pruebas Reconocimiento RIPuppet
+
+### Pasos para ejecutar las pruebas
+
+Antes de ejecutar las pruebas, cree un usuario con los siguientes datos:
+
+* Email: b.munar@uniandes.edu.co
+* Password: uniandes2022
+* Nombre de usuario: brahian
+
+Importante tener corriendo las versiones de ghost que se quieren probar.
+
+1. Clone el repositorio de la entrega.
+1. Abra una terminal.
+1. Usando el comando cd ubíquese en su terminal en la raíz del repositorio (Pruebas_Reconocimiento_RIPuppet).
+1. Ejecute el comando npm install
+1. Ejecute el comando node tags (o pages, staff, posts)
+1. Los resultados se almacenarán en la carpeta results. Estaran separadas por carpetas en orden de ejecución.
+
+Versión de Ghost: 3.41.1
+
+Versión de Node: 14.21.1 (puede usar nvm, nvm use)
+
 ## Pruebas Exploratorias
 
 En el archivo adjunto [Inventario de pruebas exploratorias](https://github.com/catorrese/entrega_final_pruebas/blob/main/Inventario%20Pruebas%20exploratorias.xlsx) se encuentra el inventario de pruebas exploratorias manuales de la aplicación bajo pruebas. Allí se reportan las funcionalidades probadas y los escenarios ejecutados, junto con un enlace a los videos de evidencia y las incidencias reportadas.

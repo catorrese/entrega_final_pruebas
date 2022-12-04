@@ -1,0 +1,11 @@
+{
+    "url": "http://localhost:2370/ghost/#/signin",
+    "headless": false,
+    "depthLevels": 10,
+    "inputValues": false,
+    "values": {
+        "passwordInput": "uniandes2022",
+        "emailInput": "b.munar@uniandes.edu.co"},
+    "browsers": ["firefox"],
+    "browsers_2": ["firefox", "chromium"]
+}
