@@ -127,3 +127,7 @@ En el archivo adjunto [Inventario de pruebas exploratorias](https://github.com/c
 Las incidencias encontradas en la ejecución de la estrategia de pruebas se encuentran en el siguiente enlace: [Registro de incidencias](https://github.com/catorrese/entrega_final_pruebas/issues)
 
 Cada incidencia se encuentra etiquetada con el método por el cual se descubrió, es decir, con que tipo de pruebas (exploratorias, E2E, etc.) se encontró el error o bug que describe.
+
+## Video Presentación
+
+En el siguiente enlace se encuentra el video presentación de la estrategia de pruebas final: [Presentación Estrategia](https://youtu.be/2gE5rjvg6rk)
